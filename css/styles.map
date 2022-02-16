@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../sass/styles.sass"
+	],
+	"sourcesContent": [
+		"@mixin reboto-light {\n    font-weight: 300;\n    font-size: 15px; }\n\n* {\n    margin: 0;\n    font-family: Roboto, sans-serif; }\n\nnav {\n    height: 51px;\n    background: #212121;\n    @include reboto-light; }\n.menu {\n    display: flex;\n    justify-content: space-between;\n    list-style-type: none;\n    margin: 0;\n    padding: 14px 71px;\n    .menu_link {\n        color: #FFFFFF;\n        text-decoration: none; } }\n"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,kBAAkB;CAAG;;;AAEtC,AAAA,GAAG,CAAC;EACA,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EATnB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CASS;;;AAC5B,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,SAAS;CAGY;;;AARlC,AAMI,KANC,CAMD,UAAU,CAAC;EACP,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;CAAG"
+}
